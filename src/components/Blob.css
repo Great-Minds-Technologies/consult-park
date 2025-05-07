@@ -1,5 +1,5 @@
 .blob-container {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     position: fixed;
     top: 0;
     left: 0;
@@ -14,8 +14,8 @@
     width:30%;
     height: 30%;
     border-radius: 50%;
-    filter: blur(120px);
-    opacity: 0.6;
+    filter: blur(60px);
+    
     animation: blob 8s infinite ease-in-out;
   }
   
@@ -38,11 +38,11 @@
     bottom: 10%;
     right: 10%;
     transform: translateX(-50%);
-    animation-delay: 4s;
+    animation-delay: 2s;
   }
   
   .blob4 {
-    background: #f7df2c; /* yellow */
+    background: #ffeb56; /* yellow */
     top: 7%;
     left: 0%;
     transform: translateX(-50%);
@@ -54,10 +54,10 @@
       transform: translate(0, 0) scale(1);
     }
     33% {
-      transform: translate(30px, -50px) scale(1.5);
+      transform: translate(30px, -50px) scale(2);
     }
     66% {
-      transform: translate(-20px, 20px) scale(0.9);
+      transform: translate(-20px, 20px) scale(1);
     }
     100% {
       transform: translate(0, 0) scale(1);
