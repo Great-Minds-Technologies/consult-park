@@ -1,0 +1,38 @@
+.value-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border: 2px solid #d6d6d6;
+    color: #ffffff;
+    border-radius: 8px;
+    background-color: rgba(90, 90, 90, 0.514);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .value-icon {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 1rem;
+  }
+  
+  .value-title {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .value-icon.yellow {
+    color: #facc15;
+  }
+  
+  .value-icon.blue {
+    color: #3b82f6;
+  }
+  
+  .value-icon.red {
+    color: #ef4444;
+  }
+  
+  .value-icon.green {
+    color: #10b981;
+  }

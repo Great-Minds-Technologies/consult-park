@@ -1,5 +1,6 @@
 .about-container {
     padding: 2rem;
+    padding-top: 0rem;
     max-width: 900px;
     margin: 0 auto;
     font-family: sans-serif;
@@ -11,27 +12,38 @@ text-align: left;
   .about-title {
     font-size: 2.5rem;
     font-weight: bold;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     color: #10b981;
     font-size: 5rem;
   }
   
   .about-subtitle {
-    font-size: 1.75rem;
+    font-size: 2rem;
     font-weight: 600;
     margin-bottom: 0.75rem;
+    color: #10b981;
   }
   
   .about-section {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     color: white;
     font-size: 1.3rem;
   }
+  .about-section p{
+    padding: 1rem 2rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    flex-wrap: wrap;
+  }
   
   .values-grid {
+    margin-top: 2rem;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1rem;
+    gap: 1.5rem;
   }
   
   @media (min-width: 768px) {
@@ -39,44 +51,7 @@ text-align: left;
       grid-template-columns: 1fr 1fr;
     }
   }
-  .value-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem;
-    border: 1px solid #ddd;
-    color: black;
-    border-radius: 8px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .value-icon {
-    width: 48px;
-    height: 48px;
-    margin-bottom: 1rem;
-  }
-  
-  .value-title {
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-  }
-  
-  .value-icon.yellow {
-    color: #facc15;
-  }
-  
-  .value-icon.blue {
-    color: #3b82f6;
-  }
-  
-  .value-icon.red {
-    color: #ef4444;
-  }
-  
-  .value-icon.green {
-    color: #10b981;
-  }
+
   
  
   
