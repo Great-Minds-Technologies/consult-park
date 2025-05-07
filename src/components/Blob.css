@@ -20,21 +20,20 @@
   }
   
   .blob1 {
-    background: #ff1500; /* purple */
-    top: 20%;
+    background: #0c433d; 
     left: 6%;
     animation-delay: 0s;
   }
   
   .blob2 {
-    background: #f7df2c; /* pink */
+    background: #49B85F; 
     top: 40%;
     right: 5%;
     animation-delay: 2s;
   }
   
   .blob3 {
-    background: #ff1500; /* yellow */
+    background: #0c433d; /* yellow */
     bottom: 10%;
     right: 10%;
     transform: translateX(-50%);
@@ -42,7 +41,7 @@
   }
   
   .blob4 {
-    background: #ffeb56; /* yellow */
+    background: #49B85F; /* yellow */
     top: 7%;
     left: 0%;
     transform: translateX(-50%);
