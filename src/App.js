@@ -6,6 +6,7 @@ import Services from './components/Services';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import Blob from './components/Blob';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
