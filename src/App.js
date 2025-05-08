@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import Blob from './components/Blob';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
+      <Footer/>
     </div>
   </Router>
   );

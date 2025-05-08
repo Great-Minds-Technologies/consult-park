@@ -29,7 +29,9 @@
 }
 
 .service-item img {
-    object-fit: fill;
+    height: 100%;
+    width: 75vw;
+    margin: 0 auto;
 }
 
 .services-caption {
@@ -49,12 +51,12 @@
 }
 
 .service-title-container {
-    height: 20%;
+    height: 20vh;
     width: 55%;
     justify-self: center;
     justify-content: space-around;
     align-content: center;
-    margin-top: -7%;
+    margin-top: -5%;
     padding-left: 5%;
     padding-right: 5%;
     background-color: rgba(255, 255, 255, 0.1);

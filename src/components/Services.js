@@ -3,6 +3,7 @@ import { Button, Accordion } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import virtualStaff from '../assets/images/VirtualStaff.jpg';
 import bookkeeping from '../assets/images/Bookkeeping.jpg';
+import sales from '../assets/images/Sales.jpg';
 import admin from '../assets/images/Admin.jpg';
 import Carousel from 'react-bootstrap/Carousel';
 
@@ -32,7 +33,7 @@ const Services = () => {
                   </Carousel.Item>
                   
                   <Carousel.Item className='service-item'>
-                    <img src={virtualStaff} />
+                    <img src={sales} />
                     <div className='services-caption'>
                         <div className='service-title-container'>
                             <h2>Sales & Lead Generation</h2>
