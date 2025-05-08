@@ -37,7 +37,7 @@ const ContactUs = () => {
           </h4>
         </div>
         <div className="social-media-icons">
-
+            
         </div>
         </Col>
         <Col md={{ span: 6, offset: 1 }} className="contact-columns">

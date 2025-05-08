@@ -43,7 +43,7 @@ const About = () => {
           <IconCard 
           icon={<Lightbulb size={48} className="value-icon yellow hover-scale" />} 
           title={"Excellence"} 
-          description={"We uphold the highest standards in everything we do, committed to delivering high-quality outsourcing solutions and ensuring client satisfaction."} />
+          description={"We uphold the highest standards in everything we do, committed to delivering quality outsourcing solutions and ensuring client satisfaction."} />
 
           <IconCard 
           icon={<Handshake size={48} className="value-icon blue hover-scale" />} 
