@@ -19,7 +19,7 @@ const Outsourcing = () => {
                 </Col>
                 <Col md="4" className="process-column">
                     <IconCard icon={<HandCoins size={40} className="process-icons"/>} title={"HR & Payroll Management"} 
-                    description={"We have an entire team of expert HR managers and Bookkeepers with expertise in various business and logistical softwares such as Sage, Oracle, Xero, PaySpace and many softwares in order to provide your business with a flexible and personalised payroll experience"}/> 
+                    description={"We have an entire team of expert HR managers and Bookkeepers with expertise in various business and logistical softwares such as Sage, Oracle, Xero, PaySpace and many softwares in order to provide your business with a flexible and personalised payroll experience."}/> 
                 </Col>
             </Row>
             <h3>Business Optimisation</h3>
