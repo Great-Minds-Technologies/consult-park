@@ -1,11 +1,13 @@
 // src/components/Navbar.jsx
 import { NavLink } from 'react-router-dom';
 import './Navbar.css';
+import logoLarge from "./assets/Consult-Park-Logo-Full.png"
+import logoSmall from "./assets/Consult-Park-Logo.png"
 
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="navbar-logo">Consult Park</div>
+      <div className="navbar-logo"><img src={logoLarge}/></div>
       <ul className="navbar-links">
         <li>
           <NavLink to="/" className={({ isActive }) => isActive ? 'active' : ''}>Home</NavLink>
