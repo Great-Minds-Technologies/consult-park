@@ -8,3 +8,7 @@
     border-top: white 1vh;
     color: white;
 }
+
+.footer-container p {
+    text-align: center;
+}
