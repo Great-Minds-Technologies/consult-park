@@ -1,0 +1,68 @@
+
+.contact-us-container {
+    margin-top: 5rem;
+}
+.contact-title {
+    color: rgb(255, 255, 255);
+}
+  .contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .contact-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .contact-card h1 {
+    margin-bottom: 10px;
+    color: #222;
+  }
+  
+  .contact-card p {
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+  }
+  
+  .contact-card form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-card input,
+  .contact-card textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  .contact-card button {
+    background-color: #3182ce;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .contact-card button:hover {
+    background-color: #2b6cb0;
+  }
+  
+  .success-message {
+    color: green;
+    margin-top: 15px;
+    text-align: center;
+  }
+  
