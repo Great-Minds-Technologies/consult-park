@@ -28,7 +28,7 @@ const ContactUs = () => {
   return (
     <Container className="contact-us-container">
       <Row>
-        <Col md={4}>
+        <Col md={4} className="contact-columns">
         <div className="contact-us-message">
           <h1 className="contact-title">Consult With Us</h1>
           <h4 className="contact-description">
@@ -36,8 +36,11 @@ const ContactUs = () => {
             support.
           </h4>
         </div>
+        <div className="social-media-icons">
+            
+        </div>
         </Col>
-        <Col md={{ span: 6, offset: 1 }}>
+        <Col md={{ span: 6, offset: 1 }} className="contact-columns">
           <div className="contact-container">
             <div className="contact-card">
               <h1>Contact Us</h1>
