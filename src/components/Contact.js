@@ -1,2 +1,90 @@
-const Contact = () => <div><h1>Contact Page</h1></div>;
-export default Contact;
+import React, { useState } from "react";
+import "./Contact.css"; // We'll define the CSS below
+import { Container, Col, Row } from "react-bootstrap";
+
+const ContactUs = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+  const [submitted, setSubmitted] = useState(false);
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setSubmitted(true);
+    setTimeout(() => {
+      setFormData({ name: "", email: "", message: "" });
+      setSubmitted(false);
+    }, 3000);
+  };
+
+  return (
+    <Container className="contact-us-container">
+      <Row>
+        <Col md={4}>
+          <h1 className="contact-title">Consult With Us</h1>
+          <p className="contact-description">
+            We'd love to hear from you! Reach out to us for any inquiries or
+            support.
+          </p>
+        </Col>
+        <Col md={{ span: 6, offset: 1 }}>
+          <div className="contact-container">
+            <div className="contact-card">
+              <h1>Contact Us</h1>
+              <p>
+                Email us at{" "}
+                <a href="mailto:support@fictionalco.com">
+                  support@fictionalco.com
+                </a>{" "}
+                or call <strong>+1 (555) 123-4567</strong>
+              </p>
+
+              <form onSubmit={handleSubmit}>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Your Name"
+                  value={formData.name}
+                  onChange={handleChange}
+                  required
+                />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Your Email"
+                  value={formData.email}
+                  onChange={handleChange}
+                  required
+                />
+                <textarea
+                  name="message"
+                  placeholder="Your Message"
+                  rows="5"
+                  value={formData.message}
+                  onChange={handleChange}
+                  required
+                ></textarea>
+                <button type="submit">Send Message</button>
+              </form>
+
+              {submitted && (
+                <div className="success-message">
+                  Thank you! Your message has been submitted.
+                </div>
+              )}
+            </div>
+          </div>
+        </Col>
+      </Row>
+    </Container>
+  );
+};
+
+export default ContactUs;
