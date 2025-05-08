@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+![Logo](./src/components/assets/Consult-Park-Logo-Full.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Welcome to Consult Park
 
-In the project directory, you can run:
+Welcome to Consult Park, a modern, multi-page React web application built to showcase professional business support services. This project demonstrates component-based architecture, responsive design using React Bootstrap, and routing with React Router.
 
-### `npm start`
+Consult Park is designed for startups and small to mid-sized businesses looking for reliable virtual staffing, administrative help, sales support, bookkeeping, and digital marketing services. The website features a clean, professional UI with interactive elements such as forms and accordions to enhance the user experience.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Built With
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 
-### `npm test`
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-### `npm run build`
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Table of Contents
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [ Overview](#-overview)  
+- [ Features](#-features)   
+- [ Screenshots](#-Screenshots)   
+- [ Setup Instructions](#️-setup-instructions)  
+- [ License](#-license)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Overview
+Consult Park is a virtual consultancy platform designed to connect businesses with skilled remote professionals across key operational areas. The platform offers tailored outsourcing solutions to help companies increase efficiency, reduce overhead costs, and focus on core growth strategies.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This website serves as a digital front for Consult Park's services, allowing potential clients to explore offerings, request consultations, and connect with the support team through an intuitive, professional interface.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Features
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Multi-page react application featuring clean UI and reusable components
+- Interactive components
+- Contact form with data handling
+- Sleek background animations
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Screenshots
 
-## Learn More
+### Home Page
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Logo](./src/assets/images/Home1.png)
+![Logo](./src/assets/images/Home2.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### About Us
 
-### Code Splitting
+![Logo](./src/assets/images/About1.png)
+![Logo](./src/assets/images/About2.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Services
 
-### Analyzing the Bundle Size
+![Logo](./src/assets/images/Services1.png)
+![Logo](./src/assets/images/Services2.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Business Process Outsourcing
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+### Contact Us
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![Logo](./src/assets/images/Contact1.png)
 
-### Deployment
+### Fully Responsive
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![Logo](./src/assets/images/Responsivesness1.png)
+![Logo](./src/assets/images/Responsiveness2.png)
 
-### `npm run build` fails to minify
+## Setup Instructions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+To get started with Consult Park locally :
+
+#### Run these in your terminal
+
+1. **React Bootstrap**  
+    ```bash
+    npm install react-bootstrap bootstrap
+    ```
+
+2. **React Router DOM**  
+    ```bash
+    npm install react-router-dom
+    ```
+3. **Lucide-react**  
+    ```bash
+    npm install lucide-react
+    ```
+4. **Start the project**
+    ```bash
+    npm start
+    ```
+
+---
+
+## Contributors
+
+- [Kai Barker]()
+- [Onthatile Lesufi]()
+- [Danae Swart]()
+
+## Licenses
+This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License. 

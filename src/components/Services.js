@@ -10,7 +10,7 @@ import Carousel from 'react-bootstrap/Carousel';
 const Services = () => {
     return (
         <div className='services-container'>
-            <h2 className="service-title">Service Page</h2>
+            <h2 className="service-title">Our Professional Services</h2>
 
             <div className='services-carousel-container'>
                 <Carousel className='services-carousel' indicators={false}>

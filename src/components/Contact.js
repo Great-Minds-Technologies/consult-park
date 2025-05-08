@@ -28,7 +28,7 @@ const ContactUs = () => {
   return (
     <Container className="contact-us-container">
       <Row>
-        <Col md={4} className="contact-columns">
+        <Col md={5} className="contact-columns">
         <div className="contact-us-message">
           <h1 className="contact-title">Consult With Us</h1>
           <h4 className="contact-description">
