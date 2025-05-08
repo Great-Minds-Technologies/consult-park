@@ -7,8 +7,7 @@
     margin: 1rem;
     border-radius: 16px;
     overflow: hidden;
-    background: linear-gradient(135deg, #ef812db1, #9f1904b8);
-    color: #fff;
+    background-color:  #000000;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
@@ -16,7 +15,7 @@
   
   .feature-card:hover {
     transform: scale(1.05) translateY(-5px);
-    box-shadow: 0 0 20px rgb(255, 185, 124), 0 12px 28px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 20px rgb(255, 255, 255), 0 12px 28px rgba(0, 0, 0, 0.4);
   }
   
   .feature-overlay {
@@ -45,8 +44,9 @@
   }
   
   .feature-content h3 {
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     margin-bottom: 0.5rem;
+    color: rgb(48, 190, 134);
   }
   
   .feature-card p {

@@ -19,9 +19,11 @@
   }
   
   .navbar-logo {
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: white; /* solid white logo, no animation */
+   float: left;
+  }
+
+  .navbar-logo img{
+    width: 60%;
   }
   
   .navbar-links {
@@ -48,12 +50,12 @@
     left: 50%;
     width: 0;
     height: 2px;
-    background: #f7df2c;
+    background: #648798;
     transition: width 0.3s ease, left 0.3s ease;
   }
   
   .navbar-links li a:hover {
-    color: #f7df2c;
+    color: #3acf8c;
     transform: scale(1.1);
   }
   
@@ -63,7 +65,7 @@
   }
   
   .navbar-links li a.active {
-    color: #ff1500;
+    color: #3acf8c;
     font-weight: 600;
   }
   

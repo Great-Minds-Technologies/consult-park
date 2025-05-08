@@ -1,6 +1,6 @@
 import "../components/Home.css";
 import FeatureCard from '../components/FeatureCard';
-
+import patern from "./assets/pattern.png";
 
 
 // daata for reusablw feature component 
@@ -28,6 +28,10 @@ const Home = () => {
 
 
         <div className="home-p">
+
+        <img src={patern}/>
+
+        <div className="p-p">
             <p>At Consult Park, we connect businesses with world-class remote talent, helping them scale,
                 optimise, and thrive. Whether you need skilled virtual staff, process outsourcing, or expert
                 consulting, we provide tailored solutions that drive results.
@@ -38,6 +42,7 @@ const Home = () => {
         Park enables businesses to enhance productivity, streamline operations, and scale effectively.
         The company is committed to delivering tailored solutions that align with the unique needs of
         each client, fostering growth and innovation across industries</p>
+        </div>
         </div>
 
         <div className="feature-section">
