@@ -11,7 +11,8 @@ const ContactUs = () => {
   const [submitted, setSubmitted] = useState(false);
 
   const handleChange = (e) => {
-    const { name, value } = e.target;
+    const name =e.target.name;
+    const value = e.target.value;
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
@@ -28,11 +29,13 @@ const ContactUs = () => {
     <Container className="contact-us-container">
       <Row>
         <Col md={4}>
+        <div className="contact-us-message">
           <h1 className="contact-title">Consult With Us</h1>
-          <p className="contact-description">
+          <h4 className="contact-description">
             We'd love to hear from you! Reach out to us for any inquiries or
             support.
-          </p>
+          </h4>
+        </div>
         </Col>
         <Col md={{ span: 6, offset: 1 }}>
           <div className="contact-container">
