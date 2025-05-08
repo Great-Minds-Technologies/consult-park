@@ -1,25 +1,37 @@
-// src/components/Navbar.jsx
+import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css';
-import logoLarge from "./assets/Consult-Park-Logo-Full.png"
-import logoSmall from "./assets/Consult-Park-Logo.png"
+import logoLarge from "./assets/Consult-Park-Logo-Full.png";
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <nav className="navbar">
-      <div className="navbar-logo"><img src={logoLarge}/></div>
-      <ul className="navbar-links">
+      <div className="navbar-logo">
+        <img src={logoLarge} alt="Consult Park Logo" />
+      </div>
+      <div className="navbar-toggle" onClick={toggleMenu}>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul className={`navbar-links ${isOpen ? 'show' : ''}`}>
         <li>
-          <NavLink to="/" className={({ isActive }) => isActive ? 'active' : ''}>Home</NavLink>
+          <NavLink to="/" onClick={() => setIsOpen(false)} className={({ isActive }) => isActive ? 'active' : ''}>Home</NavLink>
         </li>
         <li>
-          <NavLink to="/about" className={({ isActive }) => isActive ? 'active' : ''}>About</NavLink>
+          <NavLink to="/about" onClick={() => setIsOpen(false)} className={({ isActive }) => isActive ? 'active' : ''}>About</NavLink>
         </li>
         <li>
-          <NavLink to="/services" className={({ isActive }) => isActive ? 'active' : ''}>Services</NavLink>
+          <NavLink to="/services" onClick={() => setIsOpen(false)} className={({ isActive }) => isActive ? 'active' : ''}>Services</NavLink>
         </li>
         <li>
-          <NavLink to="/contact" className={({ isActive }) => isActive ? 'active' : ''}>Contact</NavLink>
+          <NavLink to="/contact" onClick={() => setIsOpen(false)} className={({ isActive }) => isActive ? 'active' : ''}>Contact</NavLink>
         </li>
       </ul>
     </nav>

@@ -1,104 +1,149 @@
+/* Updated Home.css with responsive styles */
+
 .home-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    min-height: 100vh;
-    padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  padding: 2rem;
+  color: #fff;
+}
 
-  
-    color: #fff;
-  }
-  
-  .home-container h1 {
-   
-    font-size: 5rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    line-height: 1.2;
-    max-width: 800px;
-    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
-  }
-  
-  .home-container p {
-    font-size: 1.5rem;
-    font-weight: 400;
-    margin-bottom: 2rem;
-    max-width: 700px;
-    color: #e0e7ff;
-  }
-  
-  .home-container button {
-    padding: 0.8rem 2rem;
-    background-color: #fff;
-    color: #ff0000;
-    font-size: 1rem;
-    font-weight: 600;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  }
-  
-  .home-container button:hover {
-    background-color: #e0e7ff;
-    color: #ff9100;
-    transform: translateY(-3px);
-  }
-  .home-p {
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    
-    align-items: center;
-    gap: 1rem;
-  
-    padding: 1rem;
-    color: rgb(0, 0, 0);
-    
-  }
+.home-container h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+  max-width: 800px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+}
 
-  
-  .home-p img {
-    width: 40%;
-   
-    height: auto;
-    border-radius: 8px;
-    object-fit: cover;
+.home-container p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  max-width: 700px;
+  color: #e0e7ff;
+}
 
-  }
-  .p-p{
-    width: 50%;
-    font-size: 1.5rem;
-    
-  }
-  
+.home-container button {
+  padding: 0.8rem 2rem;
+  background-color: #fff;
+  color: #ff0000;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
 
-  
-  .home-p p {
-    background-color: rgba(88, 237, 145, 0.718);
-    border-radius: 8px;
-    padding: 30px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 1rem;
-    line-height: 1.6;
-  }
-  
+.home-container button:hover {
+  background-color: #e0e7ff;
+  color: #ff9100;
+  transform: translateY(-3px);
+}
 
+.home-p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  color: rgb(0, 0, 0);
+  flex-wrap: wrap;
+}
 
-  /*---------------- css for feature services
-  behavior on home page -----*/
+.home-p img {
+  width: 40%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
 
-  /* src/components/Home.css */
+.p-p {
+  width: 50%;
+  font-size: 1.2rem;
+}
+
+.home-p p {
+  background-color: rgba(88, 237, 145, 0.718);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
 
 .feature-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.5rem;
-    padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .home-container h1 {
+    font-size: 3rem;
   }
-  
+
+  .home-container p {
+    font-size: 1rem;
+  }
+
+  .home-p img {
+    width: 45%;
+  }
+
+  .p-p {
+    width: 50%;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-p {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-p img,
+  .p-p {
+    width: 90%;
+  }
+
+  .home-container h1 {
+    font-size: 2.5rem;
+  }
+
+  .home-container p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-container h1 {
+    font-size: 2rem;
+  }
+
+  .home-container p {
+    font-size: 0.9rem;
+  }
+
+  .home-p img,
+  .p-p {
+    width: 100%;
+  }
+
+  .home-container button {
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 0.7rem 1.5rem;
+  }
+}

@@ -1,66 +1,108 @@
 .about-container {
-    padding: 2rem;
-    padding-top: 0rem;
-    max-width: 900px;
-    margin: 0 auto;
-    font-family: sans-serif;
-  }
+  padding: 2rem 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
 
-.about-container p {
+p {
   text-align: left;
 }
-  
-  .about-title {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 2rem;
-    color: #10b981;
-    font-size: 5rem;
-  }
-  
-  .about-subtitle {
-    font-size: 2rem;
-    font-weight: 600;
-    margin-bottom: 0.75rem;
-    color: #10b981;
-  }
-  
-  .about-section {
-    margin-bottom: 3rem;
-    color: white;
-    font-size: 1.3rem;
-  }
-  .about-section p{
-    padding: 1rem 2rem;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 16px;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
-    flex-wrap: wrap;
-  }
-  
+
+.about-title {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #10b981;
+  text-align: center;
+}
+
+.about-subtitle {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #10b981;
+}
+
+.about-section {
+  margin-bottom: 3rem;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.about-section p {
+  padding: 1rem 1.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  flex-wrap: wrap;
+  line-height: 1.6;
+}
+
+.values-grid {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.hover-scale {
+  transition: transform 0.3s ease;
+}
+
+.hover-scale:hover {
+  transform: scale(1.2);
+}
+
+/* ---------- Responsive Breakpoints ---------- */
+
+/* Tablets (≥768px) */
+@media (min-width: 768px) {
   .values-grid {
-    margin-top: 2rem;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
-  
-  @media (min-width: 768px) {
-    .values-grid {
       grid-template-columns: 1fr 1fr;
-    }
   }
 
-  
- 
-  
-  .hover-scale {
-    transition: transform 0.3s ease;
+  .about-title {
+      font-size: 5rem;
   }
-  
-  .hover-scale:hover {
-    transform: scale(1.2);
+
+  .about-section {
+      font-size: 1.3rem;
   }
-  
+}
+
+/* Large screens (≥1024px) */
+@media (min-width: 1024px) {
+  .values-grid {
+      grid-template-columns: 1fr 1fr;
+  }
+
+  .about-title {
+      font-size: 5.5rem;
+  }
+
+  .about-section {
+      font-size: 1.4rem;
+  }
+}
+
+/* Small devices (≤480px) */
+@media (max-width: 480px) {
+  .about-title {
+      font-size: 3rem;
+  }
+
+  .about-subtitle {
+      font-size: 1.5rem;
+  }
+
+  .about-section {
+      font-size: 1rem;
+  }
+
+  .about-section p {
+      padding: 0.8rem 1rem;
+  }
+}
