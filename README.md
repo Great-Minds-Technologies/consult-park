@@ -58,7 +58,8 @@ This website serves as a digital front for Consult Park's services, allowing pot
 
 ### Business Process Outsourcing
 
-
+![Logo](./src/assets/images/Outsourcing%20(1).png)
+![Logo](./src/assets/images/Outsourcing%20(2).png)
 
 ### Contact Us
 
@@ -97,9 +98,9 @@ To get started with Consult Park locally :
 
 ## Contributors
 
-- [Kai Barker]()
-- [Onthatile Lesufi]()
-- [Danae Swart]()
+- [Kai Barker](https://github.com/Kai-Barker)
+- [Onthatile Lesufi](https://github.com/Onthatile-Lesufi)
+- [Danae Swart](https://github.com/danaeswart)
 
 ## Licenses
 This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License. 
