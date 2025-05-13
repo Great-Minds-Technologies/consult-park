@@ -7,6 +7,8 @@ import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import Blob from './components/Blob';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from './components/Footer';
+import Outsourcing from './components/Outsourcing';
 
 function App() {
   return (
@@ -20,8 +22,10 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/outsourcing" element={<Outsourcing />} />
         </Routes>
       </main>
+      <Footer/>
     </div>
   </Router>
   );

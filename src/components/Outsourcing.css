@@ -1,0 +1,35 @@
+.outsourcing-container {
+    width: 100%;
+    height: fit-content;
+    color: #10b981;
+}
+
+.outsourcing-container h2 {
+    font-size: 3rem;
+    margin-top: 5vh;
+    margin-bottom: 7.5vh;
+}
+
+.outsourcing-container h3 {
+    font-size: 2.25rem;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+}
+
+.bpo-solutions {
+    margin-bottom: 5vh;
+}
+
+.business-opimisation {
+    margin-bottom: 5vh;
+}
+
+.process-icons {
+    margin-bottom: 1vh;
+}
+
+@media (max-width: 768px) {
+    .process-column {
+        margin-bottom: 5vh;
+    }
+}

@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.712);
   backdrop-filter: blur(10px);
   color: white;
   position: sticky;
